@@ -3,13 +3,6 @@
     margin: 1rem;
 }
 
-.card-title {
-    display: flex;
-    justify-content: right;
-    text-align: right;
-    color: aliceblue;
-}
-
 .parrafo {
     text-align: right;
     color: aliceblue;
@@ -40,10 +33,6 @@
     border: none;
 }
 
-.row {
-    align-content: center;
-}
-
 u.dotted{
     border-bottom: 1px dashed #999;
     text-decoration: none; 
@@ -55,10 +44,37 @@ u.dotted{
     align-items: center;
     width: 1000px;
     
-  }
-    .formcontacto{
+}
+
+.formcontacto{
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
+.footer{
+    background-color: #204564;
+}
+.ul{
+    list-style: none;
+    padding: 1rem;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ul li{
+    padding: 1rem;
+    text-align: center;
+    width: 1000px;
+
+}
+.ul li a{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+#boton {
+    float: left;
+}
