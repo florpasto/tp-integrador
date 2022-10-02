@@ -1,0 +1,64 @@
+.container-fluid {
+    text-align: center;
+    margin: 1rem;
+}
+
+.card-title {
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    color: aliceblue;
+}
+
+.parrafo {
+    text-align: right;
+    color: aliceblue;
+}
+
+.bsas {
+    text-align: left;   
+}
+
+.conferencia-contenido {
+    color: white;
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    right: 2rem;
+    text-align: right;
+}
+
+#conferencia {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/ba1.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+#verde {
+    background-color: #66cf1f;
+    width: 1000px;
+    border: none;
+}
+
+.row {
+    align-content: center;
+}
+
+u.dotted{
+    border-bottom: 1px dashed #999;
+    text-decoration: none; 
+}
+
+.form{
+
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    
+  }
+    .formcontacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
